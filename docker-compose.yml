@@ -25,3 +25,28 @@ services:
     ports:
       - "8084:80"
     restart: always
+  website_unique:
+    image: unique_copy0
+    ports:
+      - "8085:80"
+    restart: always
+  website_unique2:
+    image: unique_copy1
+    ports:
+      - "8086:80"
+    restart: always
+  website_unique3:
+    image: unique_copy2
+    ports:
+      - "8087:80"
+    restart: always
+  website_unique4:
+    image: unique_copy3
+    ports:
+      - "8088:80"
+    restart: always
+  website_unique5:
+    image: unique_copy4
+    ports:
+      - "8089:80"
+    restart: always
